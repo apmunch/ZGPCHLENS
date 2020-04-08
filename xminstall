@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo -e '\n'"Remote script downloaded and launched [test]...\n\n"
